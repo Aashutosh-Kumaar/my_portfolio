@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap');
+
+
+body {
+    background-image: linear-gradient(to right bottom, #150485, #03c4a1);
+    background-attachment: fixed;
+    color: #354358;
+    font-family: sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to right bottom, rgba(92, 92, 182, 0.856), #66FCF1);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.app__container {
+    padding-top: 50px;
+}
+
+.app__row {
+    height: 86vh;
+}
+
+.app__main-content {
+    border-radius: 25px;
+    padding-bottom: 25px 15px;
+    box-shadow: 0 0 20px black;
+    background-image: linear-gradient(45deg, rgba(243, 235, 235, 0.849) 90%, rgba(133, 132, 207, 0.836) 10%);
+
+}
+
+.sidebar {
+    background-color: rgba(243, 235, 235, 0.849);
+    height: 100%;
+    border-radius: 25px;
+    padding: 25px 15px;
+    box-shadow: 0 0 20px black;
+    text-align: center;
+}
+
+.sidebar__avatar {
+    height: 110px;
+    width: 120px;
+    object-fit: contain;
+    border-radius: 20px;
+
+}
+
+.image_custom {
+    height: 120px;
+    width: 140px;
+
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.sidebar__icon {
+    width: 25px;
+    height: 25px;
+}
+
+.sidebar__name {
+    font-family: 'Kaushan Script';
+    margin: 20px 0;
+    font-size: 1.7rem;
+    color: black;
+}
+
+.sidebar__name>span {
+    color: rgba(30, 5, 255, 0.726);
+}
+
+.sidebar__item {
+    margin-bottom: 6px;
+    padding-top: 6px;
+    height: 40px;
+    font-size: 1.05rem;
+    border-radius: 30px;
+
+}
+
+.sidebar__title {
+    background-color: rgba(133, 132, 207, 0.836);
+    border-radius: 30px;
+    color: black;
+}
+
+.sidebar__contact {
+    background-color: rgba(133, 132, 207, 0.836);
+    padding: 20px 0;
+    margin: 20px -15px;
+    color: black;
+}
+
+.sidebar__email {
+    background-image: linear-gradient(90deg, #F64C72, #242582);
+    color: black;
+    border-radius: 30px;
+    margin: 15px 25px 0;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+
+.sidebar__email:hover {
+    transform: scale(1.2);
+}
+
+.sidebar__github:hover,
+.sidebar__resume:hover {
+    background-color: rgba(133, 132, 207, 0.836);
+    color: black;
+}
+
+@media(max-width: 991px) {
+    .app__main-content {
+        margin: 30px 0;
+    }
+}
+
+/* Navbar */
+
+.navbar__item {
+    display: flex;
+}
+
+.navbar__active {
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+    border-bottom: 4px solid rgba(30, 5, 255, 0.575);
+    border-radius: 10px 4px;
+}
+
+.navbar__item {
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: black;
+}
+
+.navbar__item:hover {
+    background: -webkit-linear-gradient(#000000, #243B55);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+/* About */
+
+.About {
+    padding: 20px;
+    margin: -35px;
+
+
+}
+
+.About__intro {
+    font-size: 1rem;
+    padding: 20px 28px;
+    margin: 10px 0;
+    font-weight: 550;
+}
+
+.About__container {
+
+    padding: 30px 20px;
+
+}
+
+.About__heading {
+    font-size: 25px;
+    font-weight: 700px;
+    color: black;
+    margin-left: 10px;
+
+}
+
+/* skill-card*/
+
+.skill-card {
+    background-color: rgba(133, 132, 207, 0.836);
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+
+}
+
+.skill-card__icon {
+    width: 40px;
+    height: 40px;
+    margin-left: -10px;
+}
+
+.skill-card-body {
+    margin-left: 10px;
+
+    margin-bottom: 6px;
+    padding-top: 2px;
+
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgba(169, 168, 218, 0);
+    color: #000000;
+
+
+}
+
+.skill-card__content {
+    margin: 10px;
+    font-size: 0.9rem;
+    color: #6e7e91;
+
+}
+
+/* Resume */
+
+.resume {
+
+    padding-top: 20px;
+}
+
+.resume-card__heading,
+.resume-language__heading {
+
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: black;
+
+}
+
+.resume-card__name {
+    font-size: 16px;
+    font-weight: 70;
+}
+
+.resume-card__name1 {
+    font-size: 0.9rem;
+    margin-top: 0%;
+}
+
+.resume-card__body {
+    margin-top: 10px;
+}
+
+.resume-card__title {
+    font-weight: 700;
+}
+
+.resume-card__details {
+    font-size: 0.9rem;
+    padding-top: 5px;
+}
+
+/* Bar */
+
+.bar {
+    width: 90%;
+    background-color: rgba(133, 132, 207, 0.836);
+    border-radius: 20px;
+    margin-bottom: 12px;
+
+}
+
+.bar__icon {
+    width: 15px;
+    height: 15px;
+
+}
+
+.bar__wrapper {
+    background-image: linear-gradient(90deg, #F64C72, #242582);
+    border-radius: 20px;
+    padding: 4px 14px;
+    color: black;
+    font-size: 0.9rem;
+}
+
+/* Projects */
+
+.projects {
+    height: 80vh;
+    padding-top: 30px;
+    overflow-y: auto;
+
+}
+
+.projectCard__wrapper {
+    margin: 10px 0;
+    width: 100%;
+    height: 100%;
+    min-height: 160px;
+    max-height: 250px;
+}
+
+.projectCard__image {
+    width: 100%;
+    height: 80%;
+    border-radius: 30px;
+    border: 1px solid rgb(12, 0, 184);
+    transition: transform 0.3s linear;
+
+}
+
+.projectCard__image:hover {
+    transform: scale(1.05);
+}
+
+
+.projectCard__icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.projectCard__title {
+    margin-top: 12px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects__navbar {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.projects__navbar>div {
+
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.projects__navbar-active {
+    color: rgba(30, 5, 255, 0.815);
+}
+
+
+@media(max-width: 600px) {
+    .app__main-content {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .navbar__active {
+        font-size: 1.5rem;
+    }
+
+    .navbar__item {
+        font-size: 1rem;
+    }
+}
