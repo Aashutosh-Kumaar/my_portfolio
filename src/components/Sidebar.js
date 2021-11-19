@@ -42,7 +42,7 @@ const Sidebar = () => {
       <div className="sidebar__name">
         Ashutosh <span>Kumar</span>{" "}
       </div>
-      <div className="sidebar__item sidebar__title">Software Engineer</div>
+      <div className="sidebar__item sidebar__title">Software Developer</div>
       <a href={resume} download="resume.pdf">
         <div className="sidebar__item sidebar__resume">Download Resume</div>
       </a>
@@ -55,18 +55,18 @@ const Sidebar = () => {
           <img src={linkedin} alt="linkedin" className="sidebar__icon mr-3" />
         </a>
         <a
+          href="https://www.instagram.com/3m_knowledge/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={instagram} alt="instagram" className="sidebar__icon mr-3" />
+        </a>
+        <a
           href="https://www.facebook.com/aashukumaar"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img src={facebook} alt="facebook" className="sidebar__icon mr-3" />
-        </a>
-        <a
-          href="https://www.instagram.com/ashu_illon/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={instagram} alt="instagram" className="sidebar__icon mr-3" />
         </a>
         <a
           href="https://twitter.com/ProfriendsAshu"
@@ -93,7 +93,7 @@ const Sidebar = () => {
         </div>
         <br />
         <div className="sidebar__number">
-          6204995961,7488186814
+          6204995961 / 7488186814
         </div>
         <div className="sidebar__item">
           <strong>kumaar4410@gmail.com</strong>
