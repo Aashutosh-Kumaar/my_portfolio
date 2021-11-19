@@ -7,11 +7,11 @@ import {
 
 const languages = [
 
-    {
-        icon: react,
-        name: 'C',
-        level: '65'
-    },
+    // {
+    //     icon: react,
+    //     name: 'C',
+    //     level: '65'
+    // },
     {
         icon: react,
         name: 'Core Java',
@@ -63,11 +63,11 @@ const tools = [
         name: 'Visual Studio Code',
         level: '80'
     },
-    {
-        icon: react,
-        name: 'Sublime Text',
-        level: '85'
-    },
+    // {
+    //     icon: react,
+    //     name: 'Sublime Text',
+    //     level: '85'
+    // },
     {
         icon: react,
         name: 'STS',

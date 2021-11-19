@@ -12,20 +12,20 @@ const skills = [
     },
     {
         icon: star,
-        title: "Azure Cloud Migration",
-        About: ["Learning the concept of Cloud Azure (Microsoft) for ", <strong key={1}> Migration.</strong>]
+        title: "Microsoft Azure Cloud ",
+        About: ["Learning the concept of Cloud Azure (Microsoft) for ", <strong key={1}> Deployment.</strong>]
     },
     {
         icon: star,
         title: "Frontend Development",
-        About: ["I can built SPA using ", <strong key={1}>HTML, CSS & React. </strong>]
+        About: ["I can built SPA using ", <strong key={1}>HTML5, CSS & React. </strong>]
         
     },
 
     {
         icon: star,
         title: "UI/UX",
-        About: ["Minimalistic user interface designer.", ]
+        About: ["Minimalistic user interface designer using ",<strong key={1}> Figma. </strong> ]
     }
     // {
     //     icon: api,
